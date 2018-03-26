@@ -1,6 +1,6 @@
 import cuentas.cuentaPadre
 
-describe "cuentaPadre" {
+describe "cuentaPadreEnDolar" {
 	test "el saldo inicial es 0" {
 		assert.equals(0, cuentaPadre.saldo())
 	}
